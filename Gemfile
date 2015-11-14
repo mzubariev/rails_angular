@@ -16,6 +16,9 @@ gem 'bower-rails'
 gem 'angular-rails-templates'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
+group :production do
+  gem 'pg', '0.17.1'
+end
 
 
 
