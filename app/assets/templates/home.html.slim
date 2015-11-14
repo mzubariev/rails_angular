@@ -1,0 +1,10 @@
+div#content
+  ul.list-group
+    li.list-group-item ng-repeat="item in items | startFrom: startingItem() | limitTo: itemsPerPage"
+      | {{ item.name }}
+      a.pull-right ui-sref="item({ id: '{{item.id}}' })" See the details
+  div#pagination.row
+    button.pull-left.btn.btn-primary.btn-sm ng-disabled="firstPage()" ng-click="pageBack()" Назад
+    span
+      | {{ currentPage + 1 }} из {{ numberOfPages() }}
+    button.pull-right.btn.btn-primary.btn-sm ng-disabled="lastPage()" ng-click="pageForward()" Вперед

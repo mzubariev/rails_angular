@@ -1,0 +1,11 @@
+h2
+  | {{ item.name }}
+p
+  | Description:
+  |  {{ item.description }}
+p
+  | Price:
+  |  {{ item.price | currency }}
+
+a href="/"
+  button.btn.btn-md.btn-primary Back
