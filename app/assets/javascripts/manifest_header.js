@@ -3,8 +3,8 @@
 //= require bootstrap
 //= require turbolinks
 //= require angular
-//= require angular-resource
 //= require angular-ui-router
 //= require angular-rails-templates
+//= require angularjs/rails/resource
 //= require_tree ./ng-app
 //= require_tree ../templates

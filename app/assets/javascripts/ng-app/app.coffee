@@ -2,7 +2,8 @@ window.app = angular
     .module('myApp', [
         'ui.router',
         'templates',
-        'ngResource'
+        'rails',
+        'appResource'
     ]).run [ "$rootScope", ($rootScope) -> ]
 
 app.config ($stateProvider, $urlRouterProvider, $locationProvider) ->
