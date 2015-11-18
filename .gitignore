@@ -15,3 +15,6 @@
 /log/*.log
 /tmp
 /.idea/
+
+#Ignore bower components
+/lib/assets/bower_components
