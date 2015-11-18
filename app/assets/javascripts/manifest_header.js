@@ -1,0 +1,10 @@
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap
+//= require turbolinks
+//= require angular
+//= require angular-resource
+//= require angular-ui-router
+//= require angular-rails-templates
+//= require_tree ./ng-app
+//= require_tree ../templates
